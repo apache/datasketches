@@ -7,9 +7,9 @@ The hll package contains a set of very compact implementations of Phillipe Flajo
 HyperLogLog (HLL) sketch but with significantly improved error behavior and excellent speed performance.
 
 If the use case for sketching is primarily counting uniques and merging, 
-the HLL sketch is the highest performing in terms of accuracy for space consumed.  
-For large counts, these HLL sketches can be 2 to 16 times smaller for the same 
-accuracy than the Theta Sketches mentioned above.
+the HLL sketch is the 2nd highest performing in terms of accuracy for storage space consumed (the new CPC sketch developed by Kevin J. Lang now beats HLL).
+For large counts, HLL sketches can be 2 to 16 times smaller for the same 
+accuracy than the Theta Sketches mentioned above, and the CPC sketch is another 30 to 40% smaller still.
 
 A new HLL sketch is created with a simple constructor:
 
