@@ -2,11 +2,8 @@
 
 |If you are looking for         | Find it here |
 |-------------------------------|--------------|
-|github.com/datasketches/memory | github.com/apache/incubator-datasketches-memory |
+| [Original Website](https://datasketches.github.io) | To be moved... |
+|https://github.com/datasketches/memory | https://github.com/apache/incubator-datasketches-memory |
 
 
-
-## [Documentation](https://datasketches.github.io)
-
-
-## [Comments](https://groups.google.com/forum/#!forum/sketches-user)
+## [Forum](https://groups.google.com/forum/#!forum/sketches-user)
