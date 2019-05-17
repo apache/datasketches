@@ -1,4 +1,4 @@
-# NOTE: This library is being moved to ASF:
+# NOTE: The DataSketches library is being moved to ASF:
 
 |If you are looking for         | Find it here |
 |-------------------------------|--------------|
