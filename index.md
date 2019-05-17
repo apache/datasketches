@@ -33,6 +33,7 @@ id: home
 <div class="container">
   <div class="row">
     <div class="text-justify" style="font-size: 18px; padding-left: 25px; padding-right: 25px">
+<h1>NOTE: The DataSketches Library is being moved to <a href="https://github.com/apache/incubator-datasketches/blob/master/README.md">ASF</a></h1>
 <p><b>The Business Challenge:</b> Analyzing Big Data Quickly.</p>
 <p>In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include <i>count distinct</i>, quantiles, most frequent items, joins, matrix computations, and graph analysis.</p>
 
