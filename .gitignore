@@ -4,18 +4,48 @@
 .settings/
 .checkstyle
 
-#OSX files
+# IntelliJ project files
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# Additional tools
+.clover/
+
+# OSX files
 .DS_Store
 
 # Compiler output, class files
+*.class
 bin/
 
-#Test output
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Test config and output
 test-output/
-.clover/
 local/
 reports/
 .pmd
+tmp/
 
 # Build artifacts
 target/
@@ -24,19 +54,13 @@ build/
 jarsIn/
 *.jar
 build.xml
-.idea
-*.iml
 *.properties
 *.releaseBackup
+*.next
+*.tag
 
 # Jekyll
-Gemfile.lock
 _site/
-vendor/
+_*
+_*/
 
-# Other
-*.old
-.paper/
-tmp/
-/local/
-/src/main/resources/docgen/toc.html
