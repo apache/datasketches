@@ -17,15 +17,21 @@
     under the License.
 -->
 
-# DataSketches is now Apache DataSketches. 
+# DataSketches is now Apache DataSketches.
 
 DataSketches is an open source, high-performance library of stochastic streaming algorithms commonly called "sketches" in the data sciences. Sketches are small, stateful programs that process massive data as a stream and can provide approximate answers, with mathematical guarantees, to computationally difficult queries orders-of-magnitude faster than traditional, exact methods.
 
-In 2019, after 8 years of development and 5 years as in Open Source, we began the important migration from a stand-alone GitHub site to being a member of the Apache Software Foundation community.  As of December, 2020, we became an official Top-Level Project within the ASF. 
+In 2019, after 8 years of development and 5 years as in Open Source, we began the important migration from a stand-alone GitHub site to being a member of the Apache Software Foundation community.  As of December, 2020, we became an official Top-Level Project within the ASF.
 
-* Please visit our new [website](https://datasketches.apache.org).
-* For issues or questions please see our [Community page](https://datasketches.apache.org/docs/Community/index.html).
+After years of development and community building, we now have parallel core library components for Java, C++, Python, and Go implementations of many of the same sketch algorithms:
 
-* If you are looking for one of our old repository sites please refer to this [transistion page](https://datasketches.apache.org/docs/Community/Transitioning.html).
+- [datasketches-java](https://github.com/apache/datasketches-java)
+- [datasketches-cpp](https://github.com/apache/datasketches-cpp)
+- [datasketches-python](https://github.com/apache/datasketches-python)
+- [datasketches-go](https://github.com/apache/datasketches-go)
 
+Please visit the main [DataSketches website](https://datasketches.apache.org) for more information.
 
+For issues or questions, please see our [Community page](https://datasketches.apache.org/docs/Community/index.html).
+
+If you are looking for one of our old repository sites, please refer to this [transition page](https://datasketches.apache.org/docs/Community/Transitioning.html).
