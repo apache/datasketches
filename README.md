@@ -23,12 +23,13 @@ DataSketches is an open source, high-performance library of stochastic streaming
 
 In 2019, after 8 years of development and 5 years as in Open Source, we began the important migration from a stand-alone GitHub site to being a member of the Apache Software Foundation community.  As of December, 2020, we became an official Top-Level Project within the ASF.
 
-After years of development and community building, we now have parallel core library components for Java, C++, Python, and Go implementations of many of the same sketch algorithms:
+After years of development and community building, we now have parallel core library components for Java, C++, Python, Go, and Rust implementations of many of the same sketch algorithms:
 
 - [datasketches-java](https://github.com/apache/datasketches-java)
 - [datasketches-cpp](https://github.com/apache/datasketches-cpp)
 - [datasketches-python](https://github.com/apache/datasketches-python)
 - [datasketches-go](https://github.com/apache/datasketches-go)
+- [datasketches-rust](https://github.com/apache/datasketches-rust)
 
 Please visit the main [DataSketches website](https://datasketches.apache.org) for more information.
 
